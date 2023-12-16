@@ -108,7 +108,7 @@ function onClickItem(e){
 function checkIfItemExists(item){
   const itemsFromStorage = getItemsFromStorage();
 
-  return itemsFromStorage;
+  return itemsFromStorage.includes(item);
 }
 
 function setItemToEdit(item){
